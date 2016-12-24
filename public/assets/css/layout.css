@@ -34,3 +34,7 @@ a.pill-button {
     margin: 9px;
     color: white !important;
 }
+
+.navbar-default .navbar-brand {
+    color: #06a2cb;
+}

@@ -39,9 +39,12 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" class="active">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>                 
+                        <li><a href="#" class="active">หน้าแรก</a></li>
+                        <li><a href="#">คณะ/มหาวิทยาลัย</a></li>
+                        <li><a href="#">U STORY</a></li>
+                        <li><a href="#">EVENT</a></li>
+                        <li><a href="#">แบบทดสอบ</a></li>
+                        <li><a href="#">ถาม-ตอบ</a></li>
                         <li><a href="#" class="pill-button">Login</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
