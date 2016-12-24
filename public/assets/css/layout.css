@@ -1,0 +1,21 @@
+.social-nav {
+    background-color: #06a2cb;
+}
+
+.social-nav .navbar-nav li a {
+    color: white;
+}
+
+.apps-nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+a.pill-button {
+    background-color: #06a2cb;
+    border-radius: 500px;
+    padding: 6px 20px !important;
+    margin: 9px;
+    color: white !important;
+}
