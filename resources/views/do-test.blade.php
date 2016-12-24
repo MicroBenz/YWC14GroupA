@@ -1,6 +1,12 @@
 @extends('layout')
 
 @section('content')
+<div class="progress-wrapper">
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+        </div>
+    </div>
+</div>
 <div class="test-sheet test-sheet-1">
     <h1 class="test-number">ข้อที่ 1</h1>
     <h1 class="test-name">คุณชอบที่ได้ลองคิดสิ่งใหม่ๆ หรือไม่</h1>    
@@ -51,21 +57,30 @@
 <script>
     var currentQuestion = 1;
     $('.result').hide();
+    setProgressBar(currentQuestion - 1);
     showQuestion(currentQuestion);
 
     function goNext() {
         currentQuestion += 1;
         showQuestion(currentQuestion);
+        setProgressBar(currentQuestion - 1);        
     }
 
     function goLast() {
         $('.test-sheet').hide();
         $('.result').show();
+        currentQuestion += 1;
+        setProgressBar(currentQuestion - 1);
     }
+
     function navigateToBlog() {
         window.location.href = '{{ URL::to('blog-suggestion/1') }}';
     }
-
+    function setProgressBar(questionNumber) {
+        $('.progress-bar').text(questionNumber + '/4');
+        $('.progress-bar').attr('aria-valuenow', questionNumber * 25);
+        $('.progress-bar').css('width', (questionNumber * 25) + '%');
+    }
     function showQuestion(number) {
         $('.test-sheet').hide();
         $('.test-sheet-' + number).show();

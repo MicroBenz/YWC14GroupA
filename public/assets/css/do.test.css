@@ -1,3 +1,16 @@
+.progress-wrapper {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.progress-wrapper .progress {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+
 .test-sheet, .result {
     text-align: center;
 }
