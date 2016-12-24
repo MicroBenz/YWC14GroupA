@@ -19,6 +19,6 @@ Route::get('/search/results', function () {
     return view('search-result');
 });
 
-Route::get('test', function () {
-    return view('layout');
+Route::get('/do-test', function () {
+    return view('do-test');
 });
