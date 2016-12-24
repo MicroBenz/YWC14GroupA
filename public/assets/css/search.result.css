@@ -4,11 +4,13 @@
 
 .result-card {
     display: flex;
+    margin-top: 20px;
 }
 
 .result-card .result-image {
     margin-top: 20px;
     padding-left: 25px;
+    flex: 1;
 }
 
 .result-card .result-image img {
@@ -21,6 +23,7 @@
     color: #29d2ff;    
     padding-left: 25px;
     padding-right: 31px;
+    flex: 6;
 }
 
 .pill-button {
@@ -32,12 +35,12 @@
     color: white;
     background-color: #bbe4ef;
     float: left;
-    margin: 0px;
+    margin: 0px 10px 0px 0px;
 }
 
 .read-more {
     background-color: #50c1df;
     border-radius: 500px;
     float: right;
-    margin: 0px;
+    margin: 0px !important;
 }
