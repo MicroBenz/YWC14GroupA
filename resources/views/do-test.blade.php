@@ -37,6 +37,10 @@
         <button class="btn btn-info" onclick="goLast()">ไม่มั่นใจ</button>
     </div>
 </div>
+<div class="result">
+    <h1>Your Result</h1>
+    <button class="btn btn-info" onclick="navigateToBlog()">ดูบทความกัน</button>
+</div>
 @endsection
 
 @section('css')
@@ -46,6 +50,7 @@
 @section('script')
 <script>
     var currentQuestion = 1;
+    $('.result').hide();
     showQuestion(currentQuestion);
 
     function goNext() {
@@ -54,7 +59,11 @@
     }
 
     function goLast() {
-        console.log('navigate to content');
+        $('.test-sheet').hide();
+        $('.result').show();
+    }
+    function navigateToBlog() {
+        window.location.href = '{{ URL::to('blog-suggestion/1') }}';
     }
 
     function showQuestion(number) {

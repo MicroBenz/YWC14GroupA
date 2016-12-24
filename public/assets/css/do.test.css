@@ -1,4 +1,4 @@
-.test-sheet {
+.test-sheet, .result {
     text-align: center;
 }
 
@@ -14,7 +14,7 @@
     margin-top: 0px;
 }
 
-.button-group button {
+button.btn {
     display: block;
     margin: 0 auto;
     width: 450px;

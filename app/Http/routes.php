@@ -22,3 +22,7 @@ Route::get('/search/results', function () {
 Route::get('/do-test', function () {
     return view('do-test');
 });
+
+Route::get('/blog-suggestion/{demoType}', function ($demoType) {
+    return view('blog-suggestion');
+});
