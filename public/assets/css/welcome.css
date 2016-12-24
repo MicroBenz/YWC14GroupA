@@ -1,7 +1,7 @@
 .welcoming-intro {
     color: white;
     text-align: center;
-    background: url('../img/books-welcoming.jpg');
+    background: url('../img/bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 210px;
@@ -37,7 +37,7 @@
 
 .welcoming-intro a.pill-button {
     padding: 10px 20px !important;
-    font-size: 18px;
+    font-size: 24px;
     display: initial;
 }
 
@@ -58,7 +58,7 @@
     width: 100%;
 }
 
-.recomended-article .sub-recommend {
+.recomended-article .second-recommend .sub-recommend {
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -105,4 +105,36 @@ input.transparent-input {
     color: #9f9f9f;
     font-weight: 500;
     font-size: 4em;
+}
+
+.recommended-article h3 {
+    color: #9f9f9f;
+    display: inline;
+    font-weight: 1;
+}
+
+.recommended-article h4 {
+    font-size: 6em;
+}
+
+.recommended-article h5 {
+    font-size: 2.5em;
+}
+
+.recommended-article h6 {
+    display: inline;
+    color: #9f9f9f;
+}
+
+.recommended-article .glyphicon-book {
+    color: #29d2ff;
+    font-size: 30px;
+}
+
+.recommended-article .sub-recommend .glyphicon-book {
+    font-size: 20px;
+}
+
+.sub-recommend .glyphicon-share {
+    display: inline;
 }
