@@ -31,7 +31,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="{{ URL::to('') }}">Brand</a>
+                    <a class="navbar-brand" href="{{ URL::to('') }}">
+                        <img src="{{ asset('assets/img/branding.png') }}">
+                    </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->

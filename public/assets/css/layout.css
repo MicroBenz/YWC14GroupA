@@ -20,6 +20,13 @@ html, body {
     background-color: white;
 }
 
+.navbar-brand img {
+    height: 100%;
+}
+.navbar-brand {
+    padding: 0;
+}
+
 a.pill-button {
     background-color: #06a2cb;
     border-radius: 500px;
