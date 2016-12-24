@@ -1,0 +1,27 @@
+.welcoming-intro {
+    color: white;
+    text-align: center;
+    background: url('../img/books-welcoming.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
+.welcoming-intro h1 {
+    margin: 0px;
+}
+
+.welcoming-intro .answer-text {
+    font-size: 48px;
+}
+
+.welcoming-intro .here-text {
+    font-size: 107px;
+    line-height: 72px;
+}
+
+.welcoming-intro .slogan-text {
+    font-size: 19px;
+    margin-top: 30px;
+}

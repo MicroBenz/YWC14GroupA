@@ -3,7 +3,9 @@
 <head>
     <title>Laravel</title>
     <link href="{{ asset('assets/libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/layout.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/css/layout.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('assets/libs/montserratfont/css/montserrat-webfont.min.css') }}" rel="stylesheet">
     @yield('css')    
 </head>
 <body>

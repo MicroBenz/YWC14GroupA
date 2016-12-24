@@ -1,5 +1,13 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    margin-bottom: 0px;
+}
 .social-nav {
     background-color: #06a2cb;
+    margin-bottom: -7px;
+    margin-top: -7px;
 }
 
 .social-nav .navbar-nav li a {
