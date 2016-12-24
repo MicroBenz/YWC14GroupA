@@ -42,7 +42,7 @@
                         <li><a href="{{ URL::to('') }}" class="active" style="font-size: 23px;">หน้าแรก</a></li>
                         <li><a href="{{ URL::to('find-interests') }}" style="font-size: 23px;">คณะ/มหาวิทยาลัย</a></li>
                         <li><a href="{{ URL::to('blog-suggestion/1') }}" style="font-size: 23px;">U STORY</a></li>
-                        <li><a href="#" style="font-size: 23px;">EVENT</a></li>
+                        <li><a href="{{ URL::to('event') }}" style="font-size: 23px;">EVENT</a></li>
                         <li><a href="{{ URL::to('do-test') }}" style="font-size: 23px;">แบบทดสอบ</a></li>
                         <li><a href="#" class="pill-button login-btn" style="font-size: 23px;">Login</a></li>
                     </ul>

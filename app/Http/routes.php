@@ -38,3 +38,7 @@ Route::get('/health', function () {
 Route::get('/finances', function () {
     return view('finances');
 });
+
+Route::get('/event', function () {
+    return view('event');
+});
