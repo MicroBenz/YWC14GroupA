@@ -9,43 +9,39 @@
 </div>
 <div class="test-sheet test-sheet-1">
     <h1 class="test-number">ข้อที่ 1</h1>
-    <h1 class="test-name">คุณชอบที่ได้ลองคิดสิ่งใหม่ๆ หรือไม่</h1>    
+    <h1 class="test-name">การทำความรู้จักกับคนแปลกหน้าทำให้ฉัน?</h1>    
     <div class="button-group">
-        <button class="btn btn-primary" onclick="goNext()">ใช่</button>
-        <button class="btn btn-success" onclick="goNext()">ไม่ใช่</button>
-        <button class="btn btn-info" onclick="goNext()">ไม่มั่นใจ</button>
+        <button class="btn btn-primary" onclick="goNext()">รู้สึกมีชีวิตชีวา</button>
+        <button class="btn btn-success" onclick="goNext()">รู้สึกว่าต้องใช้พลังงานเยอะ</button>
     </div>
 </div>
 <div class="test-sheet test-sheet-2">
     <h1 class="test-number">ข้อที่ 2</h1>
-    <h1 class="test-name">คุณชอบที่ได้ลองคิดสิ่งใหม่ๆ หรือไม่</h1>    
+    <h1 class="test-name">ฉันเป็นคน?</h1>    
     <div class="button-group">
-        <button class="btn btn-primary" onclick="goNext()">ใช่</button>
-        <button class="btn btn-success" onclick="goNext()">ไม่ใช่</button>
-        <button class="btn btn-info" onclick="goNext()">ไม่มั่นใจ</button>
+        <button class="btn btn-primary" onclick="goNext()">ชอบสังเกตมากกว่าการครุ่นคิด</button>
+        <button class="btn btn-success" onclick="goNext()">ชอบครุ่นคิดไตร่ตรองมากกว่าสังเกต</button>
     </div>
 </div>
 <div class="test-sheet test-sheet-3">
     <h1 class="test-number">ข้อที่ 3</h1>
-    <h1 class="test-name">คุณชอบที่ได้ลองคิดสิ่งใหม่ๆ หรือไม่</h1>    
+    <h1 class="test-name">เมื่ออยู่กับคนอื่น ๆ ฉันมักจะรู้สึกว่าฉัน?</h1>    
     <div class="button-group">
-        <button class="btn btn-primary" onclick="goNext()">ใช่</button>
-        <button class="btn btn-success" onclick="goNext()">ไม่ใช่</button>
-        <button class="btn btn-info" onclick="goNext()">ไม่มั่นใจ</button>
+        <button class="btn btn-primary" onclick="goNext()">มีความหนักแน่นมากกว่าความอ่อนโยน</button>
+        <button class="btn btn-success" onclick="goNext()">มีความอ่อนโยนมากกว่าความหนักแน่น</button>
     </div>
 </div>
 <div class="test-sheet test-sheet-4">
     <h1 class="test-number">ข้อที่ 4</h1>
-    <h1 class="test-name">คุณชอบที่ได้ลองคิดสิ่งใหม่ๆ หรือไม่</h1>    
+    <h1 class="test-name">เป็นวิธีของฉันที่จะ?</h1>    
     <div class="button-group">
-        <button class="btn btn-primary" onclick="goLast()">ใช่</button>
-        <button class="btn btn-success" onclick="goLast()">ไม่ใช่</button>
-        <button class="btn btn-info" onclick="goLast()">ไม่มั่นใจ</button>
+        <button class="btn btn-primary" onclick="goLast()">ตัดสินใจอย่างรวดเร็ว</button>
+        <button class="btn btn-success" onclick="goLast()">ใช้เวลาในการเลือกและตัดสินใจพอสมควร</button>
     </div>
 </div>
 <div class="result">
-    <h1>Your Result</h1>
-    <button class="btn btn-info" onclick="navigateToBlog()">ดูบทความกัน</button>
+    <h1>ทำแบบสอบถามครบแล้ว</h1>
+    <button class="btn btn-info" onclick="navigateToBlog()">ดูผลลัพธ์กัน!</button>
 </div>
 @endsection
 
