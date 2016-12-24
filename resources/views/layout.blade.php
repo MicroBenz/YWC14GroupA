@@ -6,6 +6,8 @@
     <link href="{{ asset('assets/css/layout.css') }}" rel="stylesheet">
 
     <link href="{{ asset('assets/libs/montserratfont/css/montserrat-webfont.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/libs/pslfont/stylesheet.css') }}" rel="stylesheet">
+    
     @yield('css')    
 </head>
 <body>

@@ -1,0 +1,23 @@
+.test-sheet {
+    text-align: center;
+}
+
+.test-sheet h1 {
+    font-family: 'psl_displayregular', sans-serif;
+}
+
+.test-sheet .test-number {
+    margin-bottom: 0px;
+}
+
+.test-sheet .test-name {
+    margin-top: 0px;
+}
+
+.button-group button {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
