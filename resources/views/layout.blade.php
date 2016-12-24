@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Laravel</title>
-    <link href="{{ asset('/libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -10,8 +10,8 @@
         <button class="button">AAA</button>
     </div>
 
-    <script src="{{ asset('/libs/jquery/jquery-2.2.4.min.js') }}">
-    <script src="{{ asset('/libs/bootstrap/js/bootstrap.min.js') }}">
+    <script src="{{ asset('assets/libs/jquery/jquery-2.2.4.min.js') }}">
+    <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.min.js') }}">
     
 </body>
 </html>
