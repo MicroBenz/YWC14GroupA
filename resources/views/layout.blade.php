@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laravel</title>
+    <title>เรียนไรดอทคอม</title>
     <link href="{{ asset('assets/libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/layout.css') }}" rel="stylesheet">
 
@@ -38,14 +38,14 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" class="active">หน้าแรก</a></li>
-                        <li><a href="#">คณะ/มหาวิทยาลัย</a></li>
-                        <li><a href="#">U STORY</a></li>
-                        <li><a href="#">EVENT</a></li>
-                        <li><a href="#">แบบทดสอบ</a></li>
-                        <li><a href="#">ถาม-ตอบ</a></li>
-                        <li><a href="#" class="pill-button">Login</a></li>
+                    <ul class="nav navbar-nav navbar-right" style="font-family: 'psl_displayregular'">
+                        <li><a href="#" class="active" style="font-size: 23px;">หน้าแรก</a></li>
+                        <li><a href="#" style="font-size: 23px;">คณะ/มหาวิทยาลัย</a></li>
+                        <li><a href="#" style="font-size: 23px;">U STORY</a></li>
+                        <li><a href="#" style="font-size: 23px;">EVENT</a></li>
+                        <li><a href="#" style="font-size: 23px;">แบบทดสอบ</a></li>
+                        <li><a href="#" style="font-size: 23px;">ถาม-ตอบ</a></li>
+                        <li><a href="#" class="pill-button login-btn" style="font-size: 23px;">Login</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->

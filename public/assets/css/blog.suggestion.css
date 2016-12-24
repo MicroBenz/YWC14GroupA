@@ -1,0 +1,60 @@
+.intro {
+    background: url('../img/chula.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.intro h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    line-height: 0;
+    color: #434343;
+}
+
+.popular-header {
+    padding-top: 70px;
+}
+
+.popular-header .popular-text {
+    font-size: 21px;
+    margin: 0;
+    color: #2ed2ff;
+}
+
+.popular-header .blog-text {
+    margin: 0;
+    color: #9f9f9f;
+}
+
+.popular-content {
+    display: inline-flex;
+}
+.popular-content-box {
+    padding: 28px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.popular-content .img-wrapper {
+    flex: 3;
+}
+.popular-content .popular-content-box {
+    flex: 2;
+}
+.popular-content .popular-content-box .pill-button {
+    margin-left: 0px;
+}
+
+.popular-content-box h1 {
+    margin: 0;
+}
+.popular-content img {
+    width: 100%;
+}
+
+.post-content {
+    width: 102%;
+    margin-left: -5px;
+    padding-top: 26px;
+}

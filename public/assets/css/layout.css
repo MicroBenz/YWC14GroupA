@@ -20,6 +20,10 @@ html, body {
     background-color: white;
 }
 
+.login-btn:hover {
+    background-color: #29d2ff;
+}
+
 .navbar-brand img {
     height: 100%;
 }
@@ -33,4 +37,8 @@ a.pill-button {
     padding: 6px 20px !important;
     margin: 9px;
     color: white !important;
+}
+
+a.pill-button:hover {
+    text-decoration: none;
 }
