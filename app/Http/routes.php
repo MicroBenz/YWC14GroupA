@@ -26,3 +26,15 @@ Route::get('/do-test', function () {
 Route::get('/blog-suggestion/{demoType}', function ($demoType) {
     return view('blog-suggestion');
 });
+
+Route::get('/find-interests', function () {
+    return view('interests');
+});
+
+Route::get('/health', function () {
+    return view('health');
+});
+
+Route::get('/finances', function () {
+    return view('finances');
+});
