@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('test', function () {
-    return 'Korn';
+    return view('layout');
 });
