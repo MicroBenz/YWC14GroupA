@@ -3,15 +3,14 @@
 <head>
     <title>Laravel</title>
     <link href="{{ asset('assets/libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    @yield('css')    
 </head>
 <body>
-    <div class="container">
-        <h1>AAAAAA</h1>
-        <button class="button">AAA</button>
-    </div>
+    @yield('content')
 
-    <script src="{{ asset('assets/libs/jquery/jquery-2.2.4.min.js') }}">
-    <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.min.js') }}">
+    <script src="{{ asset('assets/libs/jquery/jquery-2.2.4.min.js') }}"></script>
+    <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.min.js') }}"></script>
     
+    @yield('script')
 </body>
 </html>
