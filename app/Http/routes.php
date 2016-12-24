@@ -38,3 +38,7 @@ Route::get('/health', function () {
 Route::get('/finances', function () {
     return view('finances');
 });
+
+Route::get('popular', function () {
+    return view('popular');
+});
