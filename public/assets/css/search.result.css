@@ -1,0 +1,43 @@
+.search-results {
+    background-color: #fcf9f9;
+}
+
+.result-card {
+    display: flex;
+}
+
+.result-card .result-image {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.result-card .result-image img {
+    width: 100%;
+    border-radius: 50%;  
+    border: 5px solid #06a2cb;
+}
+
+.result-card .result-content {
+    color: #29d2ff;    
+    padding-left: 25px;
+    padding-right: 31px;
+}
+
+.pill-button {
+    border-radius: 500px;
+    padding: 5px 15px;
+}
+
+.tags-group .tag {
+    color: white;
+    background-color: #bbe4ef;
+    float: left;
+    margin: 0px;
+}
+
+.read-more {
+    background-color: #50c1df;
+    border-radius: 500px;
+    float: right;
+    margin: 0px;
+}
