@@ -42,3 +42,6 @@ Route::get('/finances', function () {
 Route::get('/event', function () {
     return view('event');
 });
+Route::get('/popular', function () {
+    return view('popular');
+});
