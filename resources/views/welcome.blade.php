@@ -76,14 +76,18 @@
 </div>
 <br><br> -->
 <div class="container">
-	<div style="margin-left: -55px;">
-		<img src="{{ asset('assets/img/recommend-blog.png') }}">
+	<div>
+		<img src="{{ asset('assets/img/recommend-blog.png') }}" style="width: 100%;">
 	</div>
-	<div style="margin-left: -55px;">
-		<a href="popular"><img src="{{ asset('assets/img/popular-blog.png') }}"></a>
+	<div>
+		<a href="{{ URL::to('popular') }}">
+			<img src="{{ asset('assets/img/popular-blog.png') }}" style="width: 100%;">
+		</a>
 	</div>
-	<div style="margin-left: -55px;margin-bottom: 50px;">
-		<a href="https://www.youtube.com/watch?v=xeGuOw_Auck" target="_blank"><img src="{{ asset('assets/img/talk-senior.png') }}"></a>
+	<div>
+		<a href="https://www.youtube.com/watch?v=xeGuOw_Auck" target="_blank">
+			<img src="{{ asset('assets/img/talk-senior.png') }}" style="width: 100%;">
+		</a>
 	</div>
 </div>
 

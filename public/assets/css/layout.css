@@ -12,6 +12,8 @@ html, body {
 
 .social-nav .navbar-nav li a {
     color: white;
+    padding: 0;
+    margin: 5px;
 }
 
 .apps-nav {
