@@ -14,6 +14,16 @@
     color: #434343;
 }
 
+@media(max-width: 768px) {
+    .intro {
+        padding-top: 150px;
+        padding-bottom: 150px;        
+    }
+    .intro h1 {
+        font-size: 48px;
+    }
+}
+
 .popular-header {
     padding-top: 70px;
 }
@@ -31,10 +41,10 @@
 
 .popular-content {
     display: inline-flex;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);    
 }
 .popular-content-box {
     padding: 28px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .popular-content .img-wrapper {
     flex: 3;
@@ -42,8 +52,26 @@
 .popular-content .popular-content-box {
     flex: 2;
 }
+.popular-content .popular-content-box .content-title {
+    font-size: 72px;
+    padding-bottom: 20px
+}
 .popular-content .popular-content-box .pill-button {
     margin-left: 0px;
+}
+
+@media(max-width: 768px) {
+    .popular-header {
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    
+    .popular-content {
+        display: block;
+    }
+    .popular-content-box .content-title {
+        font-size: 36px !important;
+    }
 }
 
 .popular-content-box h1 {

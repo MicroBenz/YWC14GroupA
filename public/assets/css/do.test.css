@@ -26,3 +26,14 @@ button.btn {
     margin-bottom: 10px;
     font-size: 30px;
 }
+
+@media(max-width: 768px) {
+    button.btn {
+        width: 80%;
+        white-space: normal;
+    }
+    .test-sheet {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

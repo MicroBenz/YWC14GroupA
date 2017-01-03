@@ -16,6 +16,15 @@ html, body {
     margin: 5px;
 }
 
+@media(max-width: 768px) {
+    .social-nav ul {
+        text-align: right;
+    }
+    .social-nav ul li {
+        display: inline-block;
+    }
+}
+
 .apps-nav {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -23,7 +32,7 @@ html, body {
 }
 
 .login-btn:hover {
-    background-color: #29d2ff;
+    background-color: #29d2ff !important;
 }
 
 .navbar-brand img {

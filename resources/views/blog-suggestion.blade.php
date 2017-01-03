@@ -19,7 +19,7 @@
             </div>
             <div class="popular-content-box">
                 <h1 style="color: #9f9f9f;font-size: 25px;">EDUCATION</h1>
-                <h1 style="font-size: 72px;padding-bottom: 20px">สอบปลายภาคมัธยมกับมหา'ลัย</h1>
+                <h1 class="content-title">สอบปลายภาคมัธยมกับมหา'ลัย</h1>
                 <a class="pill-button">READ <i class="glyphicon glyphicon-arrow-right"></i></a>
                 <div class="author">
                     <img class="img-circle"></img>

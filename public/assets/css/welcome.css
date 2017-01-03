@@ -31,6 +31,25 @@
     padding-bottom: 50px;
 }
 
+@media(max-width: 768px) {
+    .welcoming-intro {
+        padding-top: 6em;
+        padding-bottom: 6em;
+    }
+    .welcoming-intro .answer-text {
+        font-size: 3em;
+    }
+    .welcoming-intro .here-text {
+        font-size: 6.5em;
+        padding-bottom: 4px;
+    }
+    .welcoming-intro .slogan-text {
+        font-size: 13px;
+        margin-top: 13px;
+        padding-bottom: 20px;
+    }
+}
+
 .welcoming-intro .pill-button {
     height: 200px;
 }
